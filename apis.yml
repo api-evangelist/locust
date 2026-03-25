@@ -1,0 +1,38 @@
+aid: locust
+name: Locust
+description: >-
+  Locust is an open source load testing tool written in Python that lets you define user behavior with code and swarm your system with millions of simultaneous users.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Testing
+  - Load Testing
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: locust:locust
+    name: Locust
+    description: >-
+      Locust is an open source load testing tool written in Python that lets you define user behavior with code and swarm your system with millions of simultaneous users.
+    humanURL: https://locust.io
+    tags:
+      - Testing
+      - Load Testing
+    properties:
+      - type: Documentation
+        url: https://docs.locust.io
+      - type: GitHub Repository
+        url: https://github.com/locustio/locust
+common:
+  - type: Website
+    url: https://locust.io
+  - type: Documentation
+    url: https://docs.locust.io
+  - type: GitHub Organization
+    url: https://github.com/locustio/locust
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
