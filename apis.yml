@@ -51,6 +51,8 @@ common:
     url: https://github.com/locustio/locust
   - type: License
     url: https://github.com/locustio/locust/blob/master/LICENSE
+  - type: LLMsTxt
+    url: https://docs.locust.io/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
