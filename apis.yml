@@ -6,7 +6,7 @@ description: >-
   Supports HTTP, WebSocket, MQTT, SocketIO, PostgreSQL, MongoDB, and other protocols
   via pluggable user classes, with a real-time web UI for orchestrating tests.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/apis.yml
 tags:
   - Load Testing
