@@ -34,7 +34,7 @@ apis:
         url: https://docs.locust.io
       - type: APIReference
         url: https://docs.locust.io/en/stable/api.html
-      - type: QuickStart
+      - type: GettingStarted
         url: https://docs.locust.io/en/stable/quickstart.html
       - type: Configuration
         url: https://docs.locust.io/en/stable/configuration.html
@@ -51,7 +51,7 @@ common:
     url: https://github.com/locustio/locust
   - type: License
     url: https://github.com/locustio/locust/blob/master/LICENSE
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.locust.io/llms.txt
 maintainers:
   - FN: Kin Lane
