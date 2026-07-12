@@ -41,6 +41,8 @@ apis:
       - type: SourceCode
         url: https://github.com/locustio/locust
 common:
+  - type: DomainSecurity
+    url: security/locust-domain-security.yml
   - type: Website
     url: https://locust.io
   - type: Documentation
