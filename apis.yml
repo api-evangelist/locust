@@ -53,6 +53,14 @@ apis:
       - type: SourceCode
         url: https://github.com/locustio/locust
 common:
+  - type: IssueTracker
+    url: https://github.com/locustio/locust/issues
+  - type: Releases
+    url: https://github.com/locustio/locust/releases
+  - type: SecurityPolicy
+    url: https://github.com/locustio/locust/blob/master/SECURITY.md
+  - type: ContributionGuide
+    url: https://github.com/locustio/locust/blob/master/.github/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/locust-domain-security.yml
   - type: Website
