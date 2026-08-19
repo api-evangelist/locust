@@ -28,7 +28,7 @@ tags:
   - Testing
 created: '2026-03-25'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: locust:locust
     name: Locust
