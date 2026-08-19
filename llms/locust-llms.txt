@@ -1,0 +1,45 @@
+# Locust
+
+> Developer-friendly load testing framework. Write scalable load tests in plain Python.
+
+
+## Getting started
+
+- [What is Locust?](https://docs.locust.io/en/stable/what-is-locust.html): Locust is an open source performance/load testing tool for HTTP and other protocols. Its developer-friendly approach lets you define your tests in regular Python code.
+- [Installation](https://docs.locust.io/en/stable/installation.html): Check Troubleshooting Installation if you encounter issues.
+- [Your first test](https://docs.locust.io/en/stable/quickstart.html): A Locust test is essentially just a Python program making requests to the system you want to test. This makes it very flexible and particularly good at implementing complex user flows. But it can do simple tests as well, so let’s start with that:
+
+## Writing Locust tests
+
+- [Writing a locustfile](https://docs.locust.io/en/stable/writing-a-locustfile.html): Now, lets look at a more complete/realistic example of what your tests might look like:
+
+## Running your Locust tests
+
+- [Configuration](https://docs.locust.io/en/stable/configuration.html): Locust is configured mainly through command line arguments.
+- [Increasing the request rate](https://docs.locust.io/en/stable/increasing-request-rate.html): If you’re not getting the desired/expected throughput there are a number of things you can do.
+- [Distributed load generation](https://docs.locust.io/en/stable/running-distributed.html): A single process running Locust can simulate a reasonably high throughput. For a simple test plan and small payloads it can make more than a thousand requests per second, possibly over ten thousand if you use FastHttpUser.
+- [Running tests in a debugger](https://docs.locust.io/en/stable/running-in-debugger.html): Running Locust in a debugger is extremely useful when developing your tests. Among other things, you can examine a particular response or check some User instance variable.
+- [Running in Docker](https://docs.locust.io/en/stable/running-in-docker.html): The official Docker image is at locustio/locust.
+- [Running without the web UI](https://docs.locust.io/en/stable/running-without-web-ui.html): You can run locust without the web UI by using the --headless flag together with -u/--users and -r/--spawn-rate:
+- [Hosted load testing](https://docs.locust.io/en/stable/hosted-load-testing.html): It is the easiest way to get started with large-scale tests and adds a lot of benefits:
+
+## Other functionalities
+
+- [Testing other systems/protocols](https://docs.locust.io/en/stable/testing-other-systems.html): Locust only comes with built-in support for HTTP/HTTPS but it can be extended to test almost any system. This is normally done by wrapping the protocol library and triggering a request event after each call has completed, to let Locust know what happened.
+- [Increase performance with a more efficient HTTP client](https://docs.locust.io/en/stable/increase-performance.html): Locust’s default HTTP client uses python-requests. It provides a nice API that many python developers are familiar with, and is very well-maintained. But if you’re planning to run tests with very high throughput and have limited hardware for running Locust, it is sometimes not efficient enough.
+- [Event hooks](https://docs.locust.io/en/stable/extending-locust.html): Locust comes with a number of event hooks that can be used to extend Locust in different ways.
+- [Logging](https://docs.locust.io/en/stable/logging.html): Locust uses Python’s built in logging framework for handling logging.
+- [Using Locust as a library](https://docs.locust.io/en/stable/use-as-lib.html): It is possible to start a load test from your own Python code, instead of running Locust using the locust command.
+- [OpenTelemetry Integration](https://docs.locust.io/en/stable/telemetry.html): Locust now optionally integrates with OpenTelemetry (OTel), enabling you to automatically export traces, metrics, and logs from your load tests to any OTel-compatible backend (OTLP, Prometheus, Jaeger, Tempo, etc.). This makes it easy to correlate load-test activity with application and infrastructure telemetry in your observability stack.
+- [Third party extensions](https://docs.locust.io/en/stable/extensions.html): locust-plugins
+- [Kubernetes Operator](https://docs.locust.io/en/stable/kubernetes-operator.html): The Locust Operator for Kubernetes is an operator that manages the lifecycle of running-distributed inside a Kubernetes cluster.
+- [VS Code Extension](https://docs.locust.io/en/stable/vscode-extension.html): Microsoft maintains an excellent VS Code extension based on Copilot that helps you create and run Locust tests.
+- [aiolocust / asyncio](https://docs.locust.io/en/stable/asyncio.html): aiolocust is a 2026 reimagining of Locust.
+
+## Further reading / knowledgebase
+
+- [Developing and Documenting Locust](https://docs.locust.io/en/stable/developing-locust.html): You want to contribute to Locust? Great! Here is a list of open bugs/feature requests.
+
+## API
+
+- [API](https://docs.locust.io/en/stable/api.html): Represents a “user” which is to be spawned and attack the system that is to be load tested.
