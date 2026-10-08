@@ -79,6 +79,12 @@ apis:
       - type: SourceCode
         url: https://github.com/locustio/locust
 common:
+  - type: Plans
+    url: plans/locust-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/locust-rate-limits.yml
+  - type: FinOps
+    url: finops/locust-finops.yml
   - type: IssueTracker
     url: https://github.com/locustio/locust/issues
   - type: Releases
