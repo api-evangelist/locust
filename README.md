@@ -1,4 +1,4 @@
-# Locust (locust)
+# Locust
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,53 +66,101 @@
 
 Locust is an open source load testing tool written in Python that lets you define user behavior with code and swarm your system with millions of simultaneous users. Supports HTTP, WebSocket, MQTT, SocketIO, PostgreSQL, MongoDB, and other protocols via pluggable user classes, with a real-time web UI for orchestrating tests.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/apis.yml)
+**Areas:** Load Testing · Performance Testing · Open Source · Python · Testing
 
-## Scope
+## Locust on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** Open Source
+Everything profiled for Locust is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/locust/](https://apis.io/providers/locust/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - Load Testing, Performance Testing, Open Source, Python, Testing
+- [Locust](https://apis.io/apis/locust/locust/) — Open source distributed load testing tool. Tests are written in Python by defining User classes and tasks; tests can be run from a web UI, the command line,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-25
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Locust
+Authentication, trust centre, and vulnerability disclosure.
 
-Open source distributed load testing tool. Tests are written in Python by defining User classes and tasks; tests can be run from a web UI, the command line, or embedded as a library.
+- [Locust Domain Security](https://apis.io/security/locust/locust-domain-security/)
 
-**Human URL:** [https://locust.io](https://locust.io)
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Load Testing, Python, Performance
+- [Locust Plans Pricing](https://apis.io/plans/locust/locust-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://docs.locust.io)
-- [APIReference](https://docs.locust.io/en/stable/api.html)
-- [QuickStart](https://docs.locust.io/en/stable/quickstart.html)
-- [Configuration](https://docs.locust.io/en/stable/configuration.html)
-- [SourceCode](https://github.com/locustio/locust)
+Published request limits.
 
-## Common Properties
+- [Locust Rate Limits](https://apis.io/rate-limits/locust/locust-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Locust Finops](https://apis.io/finops/locust/locust-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://locust.io)
 - [Documentation](https://docs.locust.io)
-- [GitHubOrganization](https://github.com/locustio)
-- [SourceCode](https://github.com/locustio/locust)
-- [License](https://github.com/locustio/locust/blob/master/LICENSE)
+- [GitHub](https://github.com/locustio)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 23.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/locust/](https://apis.io/providers/locust/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Locust: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/locust/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
